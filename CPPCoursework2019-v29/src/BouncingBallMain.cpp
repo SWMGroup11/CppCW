@@ -28,18 +28,6 @@ void BouncingBallMain::virtSetupBackgroundBuffer()
 
 	fillBackground( 0 );
 
-	for ( int iX = 0 ; iX < getWindowWidth() ; iX++ )
-		for ( int iY = 0 ; iY < this->getWindowHeight() ; iY++ )
-			switch( rand()%100 )
-			{
-			case 0: setBackgroundPixel( iX, iY, 0xFF0000 ); break;
-			case 1: setBackgroundPixel( iX, iY, 0x00FF00 ); break;
-			case 2: setBackgroundPixel( iX, iY, 0x0000FF ); break;
-			case 3: setBackgroundPixel( iX, iY, 0xFFFF00 ); break;
-			case 4: setBackgroundPixel( iX, iY, 0x00FFFF ); break;
-			case 5: setBackgroundPixel( iX, iY, 0xFF00FF ); break;
-		}
-
 	drawBackgroundVerticalSidedRegion( 650, 750, // X
 		100, 50, // Top line
 		150, 180, // Bottom line

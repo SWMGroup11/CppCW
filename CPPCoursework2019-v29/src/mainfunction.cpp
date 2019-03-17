@@ -5,6 +5,7 @@
 #include "templates.h"
 
 // Needs one of the following #includes, to include the class definition
+#include "Psyhw4Engine.h"
 #include "SimpleDemo.h"
 #include "BouncingBallMain.h"
 #include "MazeDemoMain.h"
@@ -31,7 +32,7 @@ int main(int argc, char *argv[])
 	// Needs just one of the following lines - choose which object to create.
 	// Note these are from simplest to most complex demo.
 	//JasonsDemoA oMain; // Jason's version of MyDemoA, MyObjectA and MyTileManagerA
-	SimpleDemo oMain;
+	Psyhw4Engine oMain;
 	//ImageObjectDemo oMain; // Shows drawing images to the foreground and background
 	//BouncingBallMain oMain; // A ball bouncing around with images and shapes drawn
 	//MazeDemoMain oMain; // Demonstrates a tile manager being used and updated

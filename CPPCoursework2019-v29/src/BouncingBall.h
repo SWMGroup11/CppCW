@@ -3,7 +3,6 @@
 
 #include "DisplayableObject.h"
 #include "MovementPosition.h"
-
 #include "BouncingBallMain.h"
 
 class BaseEngine;
@@ -70,6 +69,21 @@ protected:
 	// Pointer to the tile manager - we are going to use this!
 	TileManager* m_pTileManager;
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 class BouncingBall2 :
 	public BouncingBall

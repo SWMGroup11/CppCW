@@ -114,6 +114,9 @@
     <ClInclude Include="JasonsDemoA.h" />
     <ClInclude Include="JasonsObjectA.h" />
     <ClInclude Include="JasonsTileManager.h" />
+    <ClInclude Include="Man.h" />
+    <ClInclude Include="Moveable.h" />
+    <ClInclude Include="Psyhw4Engine.h" />
     <ClInclude Include="SimpleImage.h" />
     <ClInclude Include="MovementPosition.h" />
     <ClInclude Include="ImageObject.h" />
@@ -122,6 +125,7 @@
     <ClInclude Include="RawImage.h" />
     <ClInclude Include="BouncingObject.h" />
     <ClInclude Include="templates.h" />
+    <ClInclude Include="ThreeandFour.h" />
     <ClInclude Include="TileManager.h" />
     <ClInclude Include="BouncingBall.h" />
     <ClInclude Include="BouncingBallMain.h" />
@@ -145,9 +149,13 @@
     <ClCompile Include="JasonsDemoA.cpp" />
     <ClCompile Include="JasonsObjectA.cpp" />
     <ClCompile Include="JasonsTileManager.cpp" />
+    <ClCompile Include="Man.cpp" />
+    <ClCompile Include="Moveable.cpp" />
     <ClCompile Include="PlayingCardsDemo.cpp" />
+    <ClCompile Include="Psyhw4Engine.cpp" />
     <ClCompile Include="RawImage.cpp" />
     <ClCompile Include="SimpleDemo.cpp" />
+    <ClCompile Include="ThreeandFour.cpp" />
     <ClCompile Include="TileManager.cpp" />
     <ClCompile Include="BouncingBall.cpp" />
     <ClCompile Include="BouncingBallMain.cpp" />
